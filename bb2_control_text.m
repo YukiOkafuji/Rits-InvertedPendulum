@@ -26,10 +26,6 @@ A = [zeros(2)  eye(2);
 B = [zeros(2, 1); E\H];
 C = eye(4);
 
-% 可制御・可観測の検証
-checkMc = rank(ctrb(A, B));
-checkMo = rank(obsv(A, C));
-
 % A行列の固有値を確認
 EigA = eig(A);
 
