@@ -5,6 +5,11 @@
 - `control.c` ビュートバランサー本体に書き込むためのプログラム
 - `bb2_control_text.m` Python3 (Jupyter)による倒立振子のシミュレーションプログラム（2019年）。
 
+```
+git status
+git add
+git commit
+```
 
 ## 参考リンク
 - [講義動画](https://youtu.be/N5dlfMK_PqE)
